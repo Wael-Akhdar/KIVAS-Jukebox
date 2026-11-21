@@ -45,6 +45,10 @@ KIVAS Jukebox is EPITA's PING project (ING1, June-July 2026), built by a team of
 - **Clock drift between the player and the server:** instead of trusting a server timer, the admin player reports the real remaining time of the audio element; the backend only uses its own timer as a safety net.
 - **Anonymous but fair voting:** no login for customers, yet duplicate votes are rejected thanks to a per-session vote table.
 
+## 🛠️ Skills
+
+`Java` · `Quarkus` · `React` · `TypeScript` · `PostgreSQL` · `WebSocket` · `JWT` · `Docker` · `GitHub Actions`
+
 ## 🎯 How to test the project?
 
 A pre-compiled version (backend + embedded frontend in a single JAR) is available in the **Releases** section.
@@ -62,6 +66,8 @@ A pre-compiled version (backend + embedded frontend in a single JAR) is availabl
    ```
 4. Open http://localhost:8080 to vote as a customer, and http://localhost:8080/admin/login for the admin panel (demo credentials are in the release notes).
 
-## 👥 Team
-
-Wael Akhdar · Jessim Ziani · Louis-Maximilien Chappuit · Youcef Zahra
+### 👥 The Team
+* **[Wael Akhdar](https://github.com/Wael-Akhdar)**
+* **[Jessim Ziani](https://github.com/jessim-ziani)**
+* **[Louis-Maximilien Chappuit](https://github.com/louischap31)**
+* **[Youcef Zahra](https://github.com/youcefzahra)**
